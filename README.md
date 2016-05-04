@@ -1,11 +1,7 @@
-# PHPUnit Test Kickstarter
-
-A small kickstarter project to use `phpunit` with `grunt` in coding katas.
+# Two Digit Calculator Example
 
 ## Requirements:
 
-* Node.js
-* Node Package Manager (npm)
 * PHP
 * composer
 
@@ -13,10 +9,9 @@ A small kickstarter project to use `phpunit` with `grunt` in coding katas.
 
 #### Installation
 
-1. `npm install`
 2. `composer install`
 
 #### Run
 
-`grunt watch`
+php bin/vendor/phpunit -c phpunit.xml.dist
 
